@@ -7,5 +7,5 @@ package com.panzx.factorypatterns.abstractfactory;
  * @author panzhixiong
  * @date 2018/11/22
  */
-public abstract class Dough {
+public interface Dough {
 }

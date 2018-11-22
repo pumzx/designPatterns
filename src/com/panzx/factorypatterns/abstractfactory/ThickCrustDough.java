@@ -7,7 +7,7 @@ package com.panzx.factorypatterns.abstractfactory;
  * @author panzhixiong
  * @date 2018/11/22
  */
-public class ThickCrustDough extends Dough {
+public class ThickCrustDough implements Dough {
     public ThickCrustDough() {
         System.out.println("create ThickCrustDough");
     }

@@ -7,7 +7,7 @@ package com.panzx.factorypatterns.abstractfactory;
  * @author panzhixiong
  * @date 2018/11/22
  */
-public class MarinaraSauce extends Sauce{
+public class MarinaraSauce implements Sauce{
     public MarinaraSauce() {
         System.out.println("create MarinaraSauce");
     }
